@@ -1,6 +1,8 @@
-# Publishes the registry to GitHub Pages on every push to main.
-# Activated once this folder is moved to its own repo and Pages is
-# enabled (Settings → Pages → Source: GitHub Actions).
+# Builds the shadcn registry and publishes it to GitHub Pages on every
+# push to main. Enable once: Settings → Pages → Source: GitHub Actions.
+#
+# `shadcn build` only reads registry.json + the source files, so there is
+# no project install and no lockfile — npx fetches the pinned CLI.
 
 name: Build and publish registry
 
@@ -23,15 +25,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm build
+      - name: Build registry
+        run: npx --yes shadcn@2.10.0 build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

@@ -101,19 +101,22 @@ Releases are tagged `registry-v<X.Y.Z>`; the contract is tagged independently as
 ## Publishing
 
 The repo publishes itself to GitHub Pages via `.github/workflows/registry.yml`
-(runs `shadcn build` → uploads `public/`). To bring it online the first time:
+(runs `npx shadcn build` → uploads `public/`). No project install or lockfile is
+needed — the build only reads `registry.json` and the source files. To bring it
+online the first time:
 
-1. Create the GitHub repo and push:
+1. Create the GitHub repo and push (needs a `gh` token with the `workflow` scope —
+   `gh auth refresh -s workflow` if the push is rejected):
    `gh repo create Arkaim-Labs/arkaim-ui-registry --public --source . --remote origin --push`
-2. Generate and commit the lockfile (CI uses `--frozen-lockfile`):
-   `pnpm install && git add pnpm-lock.yaml && git commit -m "chore: add lockfile" && git push`
-3. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**.
-4. Trigger the workflow (push to `main`, or `gh workflow run "Build and publish registry"`).
+2. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**.
+3. Trigger the workflow (push to `main`, or `gh workflow run "Build and publish registry"`).
    It publishes to `https://arkaim-labs.github.io/arkaim-ui-registry/`, items at
    `…/r/<name>.json`.
-5. Tag the release:
+4. Tag the release:
    `git tag contract-v1.0.0 registry-v1.0.0 skill-v0.1.0 && git push --tags`,
    then flip the `unreleased` markers in `CHANGELOG.md` to dates.
+
+Local build (optional): `npx shadcn@2.10.0 build` writes `public/r/*.json`.
 
 The admin↔registry sync policy (backport generic changes both ways) lives in plan
 38 of the originating monorepo.
