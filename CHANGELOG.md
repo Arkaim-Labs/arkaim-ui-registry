@@ -4,14 +4,14 @@ The three components of the system version independently under SemVer, per
 `design-contract.md` §16. Tags: `contract-v<X.Y.Z>`, `registry-v<X.Y.Z>`,
 `skill-v<X.Y.Z>`.
 
-## contract-v1.0.0 — unreleased
+## contract-v1.0.0 — 2026-05-29
 
 Initial normative design contract: scope, visual contract, token system,
 typography, layout pattern, mandatory states, interaction patterns, accessibility,
 permissions, data layer, naming, operational tone, registry inventory,
 compatibility, versioning, evolution process, deviation policy.
 
-## registry-v1.0.0 — unreleased
+## registry-v1.0.0 — 2026-05-29
 
 Initial registry, 55 items, dependency graph fully closed.
 
@@ -29,7 +29,7 @@ Initial registry, 55 items, dependency graph fully closed.
   field-card, detail-sheet, register-sheet, confirm-dialog, command-palette.
 - **App shell** (3): app-sidebar, site-header, nav-user.
 
-## skill-v0.1.0 — unreleased
+## skill-v0.1.0 — 2026-05-29
 
 Initial Claude Code skill.
 
@@ -40,6 +40,6 @@ Initial Claude Code skill.
 
 ---
 
-Releases are marked `unreleased` until this folder is migrated to its own repo and
-the tags are pushed there (see README "Becoming a real repo"). They are not tagged
-in the monorepo to keep its tag namespace clean.
+First public release. Extracted from the Arkaim monorepo (plan 38) into this
+standalone repo and published to GitHub Pages at
+`https://arkaim-labs.github.io/arkaim-ui-registry/`.
