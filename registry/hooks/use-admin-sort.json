@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-admin-sort",
+  "type": "registry:hook",
+  "title": "useAdminSort()",
+  "description": "Sort column + direction state consumed by AdminSortableHead.",
+  "files": [
+    {
+      "path": "registry/hooks/use-admin-sort.ts",
+      "type": "registry:hook",
+      "target": "src/hooks/use-admin-sort.ts"
+    }
+  ]
+}

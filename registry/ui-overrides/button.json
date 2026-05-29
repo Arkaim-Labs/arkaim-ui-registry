@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "shadcn Button with the admin variants and sizes (xs, sm, default, lg, icon-xs, icon-sm, icon-lg).",
+  "dependencies": [
+    "radix-ui",
+    "class-variance-authority"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/button.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/button.tsx"
+    }
+  ]
+}

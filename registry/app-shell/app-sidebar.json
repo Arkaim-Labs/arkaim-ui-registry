@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "app-sidebar",
+  "type": "registry:component",
+  "title": "App sidebar",
+  "description": "Parameterized application sidebar: brand, nav groups, permission filtering, primary action and NavUser footer. Wraps the shadcn sidebar primitive.",
+  "registryDependencies": [
+    "nav-user",
+    "sidebar",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/app-shell/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "src/components/app-sidebar.tsx"
+    }
+  ]
+}

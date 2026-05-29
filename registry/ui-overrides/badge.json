@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge",
+  "type": "registry:ui",
+  "title": "Badge",
+  "description": "shadcn Badge with cva-driven variants (default, outline, secondary, destructive, ghost, link). Intent-colored badges layer the `border-success` / `bg-warning-muted` / etc. utilities from tokens.",
+  "dependencies": [
+    "radix-ui",
+    "class-variance-authority"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/badge.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/badge.tsx"
+    }
+  ]
+}

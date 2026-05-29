@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-pagination-footer",
+  "type": "registry:component",
+  "title": "Admin pagination footer",
+  "description": "Range label + page controls + page-size selector for tables.",
+  "registryDependencies": [
+    "pagination"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-pagination-footer.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-pagination-footer.tsx"
+    }
+  ]
+}

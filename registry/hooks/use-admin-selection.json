@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-admin-selection",
+  "type": "registry:hook",
+  "title": "useAdminSelection()",
+  "description": "Row selection state for bulk actions: toggle, select-all, indeterminate, clear.",
+  "files": [
+    {
+      "path": "registry/hooks/use-admin-selection.ts",
+      "type": "registry:hook",
+      "target": "src/hooks/use-admin-selection.ts"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "table",
+  "type": "registry:ui",
+  "title": "Table",
+  "description": "shadcn Table. Wrap in AdminTableSurface for the standard bordered container.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/table.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/table.tsx"
+    }
+  ]
+}

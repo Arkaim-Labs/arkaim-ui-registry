@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "nav-user",
+  "type": "registry:component",
+  "title": "Nav user",
+  "description": "Sidebar footer user menu with avatar, account link and logout.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "avatar",
+    "dropdown-menu",
+    "sidebar"
+  ],
+  "files": [
+    {
+      "path": "registry/app-shell/nav-user.tsx",
+      "type": "registry:component",
+      "target": "src/components/nav-user.tsx"
+    }
+  ]
+}

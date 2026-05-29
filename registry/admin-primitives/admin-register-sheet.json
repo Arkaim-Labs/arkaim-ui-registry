@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-register-sheet",
+  "type": "registry:component",
+  "title": "Admin register sheet",
+  "description": "Right-side create/edit sheet with footer actions and loading. Pairs with forms.",
+  "registryDependencies": [
+    "button",
+    "sheet"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-register-sheet.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-register-sheet.tsx"
+    }
+  ]
+}

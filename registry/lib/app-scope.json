@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "app-scope",
+  "type": "registry:lib",
+  "title": "app-scope",
+  "description": "AppScope type, storage key and default options for the SiteHeader app selector.",
+  "files": [
+    {
+      "path": "registry/lib/app-scope.ts",
+      "type": "registry:lib",
+      "target": "src/lib/app-scope.ts"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tabs",
+  "type": "registry:ui",
+  "title": "Tabs",
+  "description": "shadcn Tabs over Radix. Used by every page that splits into 2-4 sibling resources, and by AdminDetailSheet for tabbed detail views.",
+  "dependencies": [
+    "radix-ui",
+    "class-variance-authority"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/tabs.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/tabs.tsx"
+    }
+  ]
+}

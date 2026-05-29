@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-command-palette",
+  "type": "registry:component",
+  "title": "Admin command palette",
+  "description": "⌘K palette for cross-module navigation and quick actions. Radix Dialog based.",
+  "dependencies": [
+    "radix-ui",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-command-palette.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-command-palette.tsx"
+    }
+  ]
+}

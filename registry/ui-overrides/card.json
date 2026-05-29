@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "shadcn Card. Avoid nested cards (see contract section 2).",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/card.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/card.tsx"
+    }
+  ]
+}

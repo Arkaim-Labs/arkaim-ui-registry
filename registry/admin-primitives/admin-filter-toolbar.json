@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-filter-toolbar",
+  "type": "registry:component",
+  "title": "Admin filter toolbar",
+  "description": "Search + filter toolbar with a responsive filter sheet on mobile.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "sheet",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-filter-toolbar.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-filter-toolbar.tsx"
+    }
+  ]
+}

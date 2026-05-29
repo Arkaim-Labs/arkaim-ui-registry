@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-truncated-text",
+  "type": "registry:component",
+  "title": "Admin truncated text",
+  "description": "Truncates text and reveals the full value on hover via Tooltip.",
+  "registryDependencies": [
+    "tooltip",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-truncated-text.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-truncated-text.tsx"
+    }
+  ]
+}

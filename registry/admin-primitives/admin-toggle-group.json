@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-toggle-group",
+  "type": "registry:component",
+  "title": "Admin toggle group",
+  "description": "Segmented single-select control for view/scope switching.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-toggle-group.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-toggle-group.tsx"
+    }
+  ]
+}

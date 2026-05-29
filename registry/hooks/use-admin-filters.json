@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-admin-filters",
+  "type": "registry:hook",
+  "title": "useAdminFilters()",
+  "description": "URL/state-synced filter values with debounced search and reset.",
+  "files": [
+    {
+      "path": "registry/hooks/use-admin-filters.ts",
+      "type": "registry:hook",
+      "target": "src/hooks/use-admin-filters.ts"
+    }
+  ]
+}

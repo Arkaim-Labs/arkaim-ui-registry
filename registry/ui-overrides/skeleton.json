@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "skeleton",
+  "type": "registry:ui",
+  "title": "Skeleton",
+  "description": "shadcn Skeleton used by AdminTableSkeleton and AdminCardSkeleton.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/skeleton.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/skeleton.tsx"
+    }
+  ]
+}

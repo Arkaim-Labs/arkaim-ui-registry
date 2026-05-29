@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-detail-sheet",
+  "type": "registry:component",
+  "title": "Admin detail sheet",
+  "description": "Right-side detail sheet with optional tabbed sections. Read view for a record.",
+  "registryDependencies": [
+    "sheet",
+    "tabs"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-detail-sheet.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-detail-sheet.tsx"
+    }
+  ]
+}

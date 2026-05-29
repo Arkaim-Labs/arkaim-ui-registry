@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-admin-pagination",
+  "type": "registry:hook",
+  "title": "useAdminPagination()",
+  "description": "Page index + page size state with range computation for AdminPaginationFooter.",
+  "files": [
+    {
+      "path": "registry/hooks/use-admin-pagination.ts",
+      "type": "registry:hook",
+      "target": "src/hooks/use-admin-pagination.ts"
+    }
+  ]
+}

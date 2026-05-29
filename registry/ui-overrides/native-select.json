@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "native-select",
+  "type": "registry:ui",
+  "title": "Native select",
+  "description": "Custom NativeSelect: native <select> with shadcn-style classes. We deliberately avoid Radix Select to keep keyboard, screen reader and mobile behavior native.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/native-select.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/native-select.tsx"
+    }
+  ]
+}

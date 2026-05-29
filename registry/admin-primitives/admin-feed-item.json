@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-feed-item",
+  "type": "registry:component",
+  "title": "Admin feed item",
+  "description": "Timeline/activity feed row with icon, title, meta and timestamp.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-feed-item.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-feed-item.tsx"
+    }
+  ]
+}

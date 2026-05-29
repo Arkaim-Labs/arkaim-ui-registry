@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "input",
+  "type": "registry:ui",
+  "title": "Input",
+  "description": "shadcn Input with admin form styling.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/input.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/input.tsx"
+    }
+  ]
+}

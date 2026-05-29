@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sheet",
+  "type": "registry:ui",
+  "title": "Sheet",
+  "description": "shadcn Sheet over Radix Dialog. Foundation for AdminDetailSheet and AdminRegisterSheet.",
+  "dependencies": [
+    "radix-ui",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/sheet.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/sheet.tsx"
+    }
+  ]
+}

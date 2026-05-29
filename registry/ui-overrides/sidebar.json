@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sidebar",
+  "type": "registry:ui",
+  "title": "Sidebar (shadcn primitive)",
+  "description": "Full shadcn Sidebar primitive set (Provider, Trigger, Inset, Rail, Menu, etc). Wrapped by AppSidebar in app-shell.",
+  "dependencies": [
+    "radix-ui",
+    "class-variance-authority",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils",
+    "button",
+    "input",
+    "separator",
+    "skeleton",
+    "use-mobile"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/sidebar.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/sidebar.tsx"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pagination",
+  "type": "registry:ui",
+  "title": "Pagination",
+  "description": "shadcn Pagination used by AdminPaginationFooter.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/pagination.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/pagination.tsx"
+    }
+  ]
+}

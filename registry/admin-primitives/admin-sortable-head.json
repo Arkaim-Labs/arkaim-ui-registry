@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-sortable-head",
+  "type": "registry:component",
+  "title": "Admin sortable head",
+  "description": "Sortable <TableHead> button bound to useAdminSort state.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "table",
+    "use-admin-sort",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-sortable-head.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-sortable-head.tsx"
+    }
+  ]
+}

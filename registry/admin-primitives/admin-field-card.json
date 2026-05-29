@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-field-card",
+  "type": "registry:component",
+  "title": "Admin field card",
+  "description": "Labeled key/value card used inside detail sheets and field grids.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-field-card.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-field-card.tsx"
+    }
+  ]
+}

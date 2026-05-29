@@ -1,0 +1,13 @@
+{
+  "name": "arkaim-ui-registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shadcn-style registry for the Admin UI Design System. See design-contract.md for the normative spec.",
+  "scripts": {
+    "build": "shadcn build",
+    "registry:add-tokens": "echo 'In a consumer project, run: npx shadcn add https://arkaim-labs.github.io/arkaim-ui-registry/r/tokens.json'"
+  },
+  "devDependencies": {
+    "shadcn": "^2.10.0"
+  }
+}

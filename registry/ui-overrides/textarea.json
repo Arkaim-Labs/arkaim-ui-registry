@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textarea",
+  "type": "registry:ui",
+  "title": "Textarea",
+  "description": "shadcn Textarea with admin form styling.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/textarea.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/textarea.tsx"
+    }
+  ]
+}

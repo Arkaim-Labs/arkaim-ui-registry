@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-status-badge",
+  "type": "registry:component",
+  "title": "Admin status badge",
+  "description": "Intent-colored status badge mapping domain status -> token color.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-status-badge.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-status-badge.tsx"
+    }
+  ]
+}

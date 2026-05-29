@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-sparkline",
+  "type": "registry:component",
+  "title": "Admin sparkline",
+  "description": "Dependency-free inline SVG sparkline for metric cards.",
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-sparkline.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-sparkline.tsx"
+    }
+  ]
+}

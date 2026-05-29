@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-metric-card",
+  "type": "registry:component",
+  "title": "Admin metric card",
+  "description": "KPI card with display-font value, label, delta and optional sparkline slot.",
+  "registryDependencies": [
+    "card"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-metric-card.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-metric-card.tsx"
+    }
+  ]
+}

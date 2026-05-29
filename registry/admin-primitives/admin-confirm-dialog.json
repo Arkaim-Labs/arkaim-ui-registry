@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-confirm-dialog",
+  "type": "registry:component",
+  "title": "Admin confirm dialog",
+  "description": "Destructive/confirmation dialog wrapping AlertDialog with loading + intent.",
+  "registryDependencies": [
+    "alert-dialog",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-confirm-dialog.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-confirm-dialog.tsx"
+    }
+  ]
+}

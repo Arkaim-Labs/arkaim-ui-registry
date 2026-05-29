@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dropdown-menu",
+  "type": "registry:ui",
+  "title": "Dropdown Menu",
+  "description": "shadcn DropdownMenu over Radix. Used by row action menus and the Plans & Billing `+ New` menu.",
+  "dependencies": [
+    "radix-ui",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/dropdown-menu.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/dropdown-menu.tsx"
+    }
+  ]
+}

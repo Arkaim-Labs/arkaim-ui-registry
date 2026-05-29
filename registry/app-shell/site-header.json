@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "site-header",
+  "type": "registry:component",
+  "title": "Site header",
+  "description": "Top bar with sidebar trigger, breadcrumb and app-scope selector.",
+  "registryDependencies": [
+    "breadcrumb",
+    "native-select",
+    "separator",
+    "sidebar",
+    "app-scope"
+  ],
+  "files": [
+    {
+      "path": "registry/app-shell/site-header.tsx",
+      "type": "registry:component",
+      "target": "src/components/site-header.tsx"
+    }
+  ]
+}

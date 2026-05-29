@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alert-dialog",
+  "type": "registry:ui",
+  "title": "Alert Dialog (override)",
+  "description": "shadcn AlertDialog over Radix Dialog. Confirmation pattern used by AdminConfirmDialog.",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "registryDependencies": [
+    "utils",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/alert-dialog.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/alert-dialog.tsx"
+    }
+  ]
+}

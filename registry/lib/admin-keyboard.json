@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-keyboard",
+  "type": "registry:lib",
+  "title": "admin-keyboard (rowActivationHandler)",
+  "description": "rowActivationHandler: Enter/Space keydown handler that activates a row without hijacking Tab/Escape.",
+  "files": [
+    {
+      "path": "registry/lib/admin-keyboard.ts",
+      "type": "registry:lib",
+      "target": "src/lib/admin-keyboard.ts"
+    }
+  ]
+}

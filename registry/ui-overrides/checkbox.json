@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "Checkbox",
+  "description": "shadcn Checkbox over Radix. Supports `indeterminate` state used by bulk-action tables.",
+  "dependencies": [
+    "radix-ui",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/checkbox.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/checkbox.tsx"
+    }
+  ]
+}

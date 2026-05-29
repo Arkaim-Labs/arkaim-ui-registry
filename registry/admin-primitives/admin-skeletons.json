@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-skeletons",
+  "type": "registry:component",
+  "title": "Admin skeletons",
+  "description": "AdminTableSkeleton + AdminCardSkeleton for the mandatory loading state.",
+  "registryDependencies": [
+    "skeleton",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-skeletons.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-skeletons.tsx"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-toast",
+  "type": "registry:lib",
+  "title": "admin-toast helpers",
+  "description": "toastSuccess / toastError / toastMutation built on sonner, with the standard operational tone.",
+  "dependencies": [
+    "sonner"
+  ],
+  "files": [
+    {
+      "path": "registry/lib/admin-toast.ts",
+      "type": "registry:lib",
+      "target": "src/lib/admin-toast.ts"
+    }
+  ]
+}

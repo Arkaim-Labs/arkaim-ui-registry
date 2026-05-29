@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-page-header",
+  "type": "registry:component",
+  "title": "Admin page header",
+  "description": "Page title, description and primary/secondary actions row.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-page-header.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-page-header.tsx"
+    }
+  ]
+}

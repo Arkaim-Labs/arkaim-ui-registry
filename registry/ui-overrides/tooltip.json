@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tooltip",
+  "type": "registry:ui",
+  "title": "Tooltip",
+  "description": "shadcn Tooltip over Radix. Used by AdminTimestamp, AdminTruncatedText and any truncated cell.",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/ui-overrides/tooltip.tsx",
+      "type": "registry:ui",
+      "target": "src/components/ui/tooltip.tsx"
+    }
+  ]
+}

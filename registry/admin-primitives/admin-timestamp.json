@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-timestamp",
+  "type": "registry:component",
+  "title": "Admin timestamp",
+  "description": "Relative timestamp with absolute value on hover via Tooltip. Mono font.",
+  "registryDependencies": [
+    "tooltip",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-timestamp.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-timestamp.tsx"
+    }
+  ]
+}

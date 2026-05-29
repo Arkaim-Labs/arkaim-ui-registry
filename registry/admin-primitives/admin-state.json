@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-state",
+  "type": "registry:component",
+  "title": "Admin state",
+  "description": "Empty / error / no-results states with icon, copy and optional CTA.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "registry/admin-primitives/admin-state.tsx",
+      "type": "registry:component",
+      "target": "src/components/admin-state.tsx"
+    }
+  ]
+}

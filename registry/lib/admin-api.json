@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-api",
+  "type": "registry:lib",
+  "title": "admin-api (createResourceApi)",
+  "description": "fetch wrapper: adminApiRequest, AdminApiError and createResourceApi(list/get/create/update/remove) for a REST resource. Adapt the base URL to your backend.",
+  "files": [
+    {
+      "path": "registry/lib/admin-api.ts",
+      "type": "registry:lib",
+      "target": "src/lib/admin-api.ts"
+    }
+  ]
+}

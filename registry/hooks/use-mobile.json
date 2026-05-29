@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-mobile",
+  "type": "registry:hook",
+  "title": "useIsMobile()",
+  "description": "Standard shadcn responsive hook that returns true when the viewport is below the mobile breakpoint. Required by the sidebar primitive.",
+  "files": [
+    {
+      "path": "registry/hooks/use-mobile.ts",
+      "type": "registry:hook",
+      "target": "src/hooks/use-mobile.ts"
+    }
+  ]
+}
